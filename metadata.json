@@ -1,0 +1,6 @@
+{
+  "name": "HOÀNG CHANH AI COMEDY STUDIO",
+  "description": "Studio sáng tạo kịch bản phim hài gia đình ngắn dọc 9:16 cho TikTok, Reels & Shorts. Quản lý nhân vật nhất quán, phân cảnh, xuất prompt Midjourney/Flux & Kling/Runway, hướng dẫn thoại và SFX âm thanh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

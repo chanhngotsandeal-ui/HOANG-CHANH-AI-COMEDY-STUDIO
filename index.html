@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="vi" class="h-full bg-slate-950">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="theme-color" content="#090d16" />
+    <title>HOÀNG CHANH AI COMEDY STUDIO</title>
+    <meta name="description" content="Studio sáng tạo kịch bản phim hài gia đình ngắn dọc 9:16 cho TikTok, Reels & Shorts. Quản lý nhân vật nhất quán, phân cảnh, xuất prompt Midjourney/Flux & Kling/Runway, hướng dẫn thoại và SFX âm thanh." />
+    <meta property="og:title" content="HOÀNG CHANH AI COMEDY STUDIO" />
+    <meta property="og:description" content="Studio sáng tạo kịch bản phim hài gia đình ngắn dọc 9:16 cho TikTok, Reels & Shorts. Quản lý nhân vật nhất quán, phân cảnh, xuất prompt Midjourney/Flux & Kling/Runway, hướng dẫn thoại và SFX âm thanh." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+      // Suppress harmless Vite HMR WebSocket connection errors in sandbox iframe environment
+      window.addEventListener('unhandledrejection', function(event) {
+        var reason = event && (event.reason ? (event.reason.message || String(event.reason)) : '');
+        if (reason && (reason.indexOf('WebSocket') !== -1 || reason.indexOf('vite:ws') !== -1)) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+        }
+      }, true);
+      window.addEventListener('error', function(event) {
+        var msg = event && (event.message || '');
+        if (msg && (msg.indexOf('WebSocket') !== -1 || msg.indexOf('vite:ws') !== -1)) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+        }
+      }, true);
+    </script>
+  </head>
+  <body class="h-full font-sans antialiased bg-slate-950 text-slate-100 selection:bg-amber-500/30 selection:text-amber-200">
+    <div id="root" class="h-full"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
